@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Ed Pro – Scroll Video Experience</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="site-header">
+    <div class="logo">Dev<span>Ed</span> Pro</div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#use-cases">Use Cases</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION WITH SCROLL VIDEO ===== -->
+  <main>
+    <section class="hero">
+      <div class="hero-video-wrapper">
+        <video class="hero-video" src="Raj pravin_s Video - Nov 26, 2025-VEED.mp4" playsinline muted></video>
+      </div>
+
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <h1 class="hero-title">The New Dev Ed Pro</h1>
+          <p class="hero-subtitle">
+            A seamless scroll-driven experience that reacts to every move you make.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTENT SECTIONS AFTER VIDEO PIN ===== -->
+
+    <section id="about" class="section section-light">
+      <div class="section-inner">
+        <h2>Designed for Immersive Storytelling</h2>
+        <p>
+          Dev Ed Pro lets you craft cinematic scroll-based experiences. As the user scrolls,
+          the product comes to life, revealing every angle and detail in perfect sync.
+        </p>
+      </div>
+    </section>
+
+    <section id="features" class="section section-dark">
+      <div class="section-inner two-column">
+        <div>
+          <h2>Key Highlights</h2>
+          <ul class="feature-list">
+            <li>Scroll-controlled hero video animation</li>
+            <li>Smooth, pinned hero section for dramatic reveals</li>
+            <li>GSAP ScrollTrigger for precise timing</li>
+            <li>Responsive layout ready for portfolio or landing page</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Built for Performance</h3>
+          <p>
+            Lightweight HTML, CSS, and JavaScript. No heavy frameworks or complex build tools –
+            just powerful motion with minimal setup.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="use-cases" class="section section-light">
+      <div class="section-inner">
+        <h2>Perfect For</h2>
+        <div class="pill-row">
+          <span class="pill">Product Launch Pages</span>
+          <span class="pill">Portfolio Showcases</span>
+          <span class="pill">Case Studies</span>
+          <span class="pill">Landing Pages</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-footer">
+      <div class="section-inner">
+        <h2>Ready to Build Your Version?</h2>
+        <p>
+          Replace this text with your own content, CTA button, or contact form.
+          This layout is just a base for your creativity.
+        </p>
+        <button class="primary-btn">Get Started</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== SCRIPTS ===== -->
+  <!-- GSAP core -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <!-- ScrollTrigger plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <script src="./app.js"></script>
+</body>
+</html>
